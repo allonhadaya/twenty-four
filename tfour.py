@@ -16,7 +16,7 @@ def calc(a, b):
     return (a, b, float('NaN'))
 
 def present(opt):  
-  return '%f = (((%f %s %f) %s %f) %s %f)' % (opt[2], opt[0][0], sym[opt[1][0]], opt[0][1], sym[opt[1][1]], opt[0][2], sym[opt[1][2]], opt[0][3])
+  return '%d = (((%d %s %d) %s %d) %s %d)' % (opt[2], opt[0][0], sym[opt[1][0]], opt[0][1], sym[opt[1][1]], opt[0][2], sym[opt[1][2]], opt[0][3])
 
 def add(a, b):
   return a + b
